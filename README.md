@@ -14,6 +14,8 @@
 - And you can only use ESM
 - Fork from [electron-vue-vite](https://github.com/caoxiemeihao/electron-vue-vite)
 
+![](./screenshot/1440x900.png)
+
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)

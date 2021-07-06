@@ -13,8 +13,8 @@ let win: BrowserWindow
 function createWin() {
   // 创建浏览器窗口
   win = new BrowserWindow({
-    width: 1024,
-    height: 768,
+    width: 1440,
+    height: 900,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
@@ -22,11 +22,11 @@ function createWin() {
     },
   })
 
-  globalShortcut.register('F12', function () {
+  globalShortcut.register('CommandOrControl + D', () => {
     win.webContents.openDevTools()
   })
 
-  win.webContents.openDevTools()
+  // win.webContents.openDevTools()
 
   const URL = app.isPackaged
     ? `file://${join(__dirname, '../render/index.html')}` // vite 构建后的静态文件地址
