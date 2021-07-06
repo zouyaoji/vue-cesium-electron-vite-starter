@@ -20,6 +20,8 @@ setTimeout(() => {
 }, 2999)
 
 createApp(App)
-  .use(VueCesium)
+  .use(VueCesium, {
+    cesiumPath: './Cesium/Cesium.js'
+  })
   .mount('#app')
   .$nextTick(window.removeLoading)
