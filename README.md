@@ -6,8 +6,8 @@
 - `Vite` is the scaffold of the future
 
 ## Command
-- npm run dev
-- npm run build
+- yarn dev
+- yarn run build
 
 ## Note
 - In the development environment, we need to transform the `Electron` related API into commonjs
