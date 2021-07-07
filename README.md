@@ -7,7 +7,7 @@
 
 ## Command
 - yarn dev
-- yarn run build
+- yarn build
 
 ## Note
 - In the development environment, we need to transform the `Electron` related API into commonjs
